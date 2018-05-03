@@ -1,10 +1,12 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
       name='testtest',
-      version='1.5',
-      py_modules=['using_click'],
+      version='1.7',
+      packages=find_packages(),
+      include_package_data=True,
       install_requires=[
+            'emoji',
             'Click',
       ],
       description='Testing Framework',
@@ -12,11 +14,10 @@ setup(
       author='Alex McCarroll',
       author_email='alexandra@mccarrollhk.com',
       license='MIT',
-      packages=['testtest'],
       zip_safe=False,
       entry_points={
             'console_scripts': [
-                'using_click=using_click:cli',
+                'using_click=testtest.scripts.using_click:cli',
             ],
       }
       )
