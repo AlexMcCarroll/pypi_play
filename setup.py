@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
       name='testtest',
-      version='1.1',
+      version='1.5',
       py_modules=['using_click'],
       install_requires=[
             'Click',
@@ -14,8 +14,9 @@ setup(
       license='MIT',
       packages=['testtest'],
       zip_safe=False,
-      entry_points='''
-            [console_scripts]
-            using_click=using_click:cli
-        ''',
+      entry_points={
+            'console_scripts': [
+                'using_click=using_click:cli',
+            ],
+      }
       )
