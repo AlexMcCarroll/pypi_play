@@ -18,6 +18,7 @@ setup(
       entry_points={
             'console_scripts': [
                 'using_click=testtest.scripts.using_click:cli',
+                'init=testtest.scripts.init:cli',
             ],
       }
       )

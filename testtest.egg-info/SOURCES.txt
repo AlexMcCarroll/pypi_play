@@ -11,4 +11,5 @@ testtest.egg-info/not-zip-safe
 testtest.egg-info/requires.txt
 testtest.egg-info/top_level.txt
 testtest/scripts/__init__.py
+testtest/scripts/init.py
 testtest/scripts/using_click.py
