@@ -1,0 +1,6 @@
+testtest/__init__.py
+testtest.egg-info/PKG-INFO
+testtest.egg-info/SOURCES.txt
+testtest.egg-info/dependency_links.txt
+testtest.egg-info/not-zip-safe
+testtest.egg-info/top_level.txt
